@@ -1,6 +1,8 @@
 console.log('it works!');
 
-const i = 2;
-console.log(i);
-
-console.log();
+export default function testerYarn(table) {
+  if (table === 'wood') {
+    return 'standart tabel';
+  }
+  return 'interesting tabel';
+}
